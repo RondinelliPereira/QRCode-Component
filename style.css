@@ -57,3 +57,15 @@ img{
     font-size: 10px;
     color:   hsl(220, 15%, 55%);
 }
+
+@media (max-width: 315px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:hsl(212, 45%, 89%) ;
+        width: 290px;
+        height: 600px;
+    }
+}
